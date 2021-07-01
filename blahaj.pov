@@ -40,6 +40,7 @@ blob{
 		texture{
 			pigment{colour Blue}
 		}
+		scale<2,1,1>
 	}
 //tail
 	cylinder{
