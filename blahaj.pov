@@ -6,6 +6,9 @@ camera{
 }
 
 blob{
+	cylinder{
+		<-1,0,0>, <1,0,0>, 0.5, 1
+	}
 	sphere{
 		<1,0,0>, 2
 		strength 1.5
