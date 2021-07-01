@@ -7,7 +7,7 @@ camera{
 
 blob{
 	cylinder{
-		<-1.3,1,0>, <1,0,0>, 0.5, 1
+		<-1.5,1,0>, <1,0,0>, 0.5, 1
 		texture{
 			pigment{colour DarkSlateBlue}
 		}
