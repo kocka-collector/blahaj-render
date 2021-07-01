@@ -1,7 +1,7 @@
 #include "colors.inc"
 
 camera{
-	location <-4, 0, 4>
+	location <0, 0, 4>
 	look_at 0
 }
 
