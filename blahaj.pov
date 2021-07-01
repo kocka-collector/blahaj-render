@@ -25,13 +25,13 @@ blob{
 sphere{
 	<1,0,0>, 2
 	texture{
-		pigment{colour Blue transmit .75}
+		pigment{colour Blue transmit .5}
 	}
 }
 sphere{
 	0, 2
 	texture{
-		pigment{colour Blue transmit .75}
+		pigment{colour Blue transmit .5}
 	}
 }
 light_source { <2, 4, -3> color White}
