@@ -36,7 +36,7 @@ blob{
 	}
 //fins
 	cylinder{
-		<1,-0.4,-0.5>,<1,-0.4,0.5>,0.1,1.1
+		<0.5,-0.4,-0.5>,<0.5,-0.4,0.5>,0.1,1.1
 		scale<2,1,1>
 		texture{
 			pigment{colour Blue}
