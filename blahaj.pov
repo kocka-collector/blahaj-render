@@ -42,6 +42,9 @@ blob{
 			pigment{colour Blue}
 		}
 	}
+	cylinder{
+		<2,-1,0>,<2,1,0>,0.5,1
+	}
 //hump on back. possibly unneded.
 	sphere{
 		0, 1
