@@ -20,7 +20,13 @@ blob{
 	}
 	sphere{
 		<1,0,0>, 1
-		strength 1.5
+		strength 1.4
+		texture{
+			pigment{colour Blue}
+		}
+	}
+	cylinder{
+		<1,0,0>, <2,0,0>, 0.5,1.4
 		texture{
 			pigment{colour Blue}
 		}
