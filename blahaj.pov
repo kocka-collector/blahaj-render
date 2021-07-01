@@ -66,7 +66,7 @@ blob{
 //hump on back. possibly unneded.
 	sphere{
 		0, 1
-		strength 1.7
+		strength 1.2
 		texture{
 			pigment{colour Blue}
 		}
