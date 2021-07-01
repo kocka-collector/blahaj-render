@@ -31,7 +31,7 @@ blob{
 //belly
 	sphere{
 		<1,-0.5,0>, 1
-		strength 1
+		strength 0.5
 		texture{
 			pigment{colour Blue}
 		}
@@ -66,7 +66,7 @@ blob{
 //hump on back. possibly unneded.
 	sphere{
 		0, 1
-		strength 1.2
+		strength 1.7
 		texture{
 			pigment{colour Blue}
 		}
