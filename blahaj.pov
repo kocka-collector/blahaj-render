@@ -8,6 +8,9 @@ camera{
 blob{
 	cylinder{
 		<-1,0,0>, <1,0,0>, 0.5, 1
+		texture{
+			pigment{colour DimGrey}
+		}
 	}
 	sphere{
 		<1,0,0>, 2
