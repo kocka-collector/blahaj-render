@@ -19,7 +19,7 @@ blob{
 		}
 	}
 	sphere{
-		<1,0.5,0>, 1
+		<1,-0.5,0>, 1
 		strength 1.4
 		texture{
 			pigment{colour Blue}
