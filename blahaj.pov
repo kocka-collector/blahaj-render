@@ -20,6 +20,12 @@ blob{
 			pigment{colour DimGrey}
 		}
 	}
+//mouth
+	cylinder{
+		<-0.8,0.5,-1>.
+		<-0.8,0.5,1>, 0.3,-1
+		
+	}
 //belly
 	sphere{
 		<1,-0.5,0>, 1
@@ -30,7 +36,7 @@ blob{
 	}
 //fins
 	cylinder{
-		<1,-0.5,-0.5>,<1,-0.5,0.5>,0.1,1.1
+		<1,-0.4,-0.5>,<1,-0.4,0.5>,0.1,1.1
 		texture{
 			pigment{colour Blue}
 		}
