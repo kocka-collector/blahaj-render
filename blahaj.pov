@@ -13,14 +13,14 @@ blob{
 		}
 	}
 	sphere{
-		<1,0,0>, 2
+		<1,0,0>, 1
 		strength 1.5
 		texture{
 			pigment{colour Blue}
 		}
 	}
 	sphere{
-		0, 2
+		0, 1
 		strength 2
 		texture{
 			pigment{colour Grey}
