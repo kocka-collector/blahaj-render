@@ -43,7 +43,10 @@ blob{
 		}
 	}
 	cylinder{
-		<2,-1,0>,<2,1,0>,0.5,1
+		<2,-1,0>,<2,0,0>,0.5,1
+		texture{
+			pigment{colour RichBlue}
+		}
 	}
 //hump on back. possibly unneded.
 	sphere{
