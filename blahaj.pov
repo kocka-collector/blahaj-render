@@ -13,7 +13,7 @@ blob{
 		}
 	}
 	cylinder{
-		<-1,0,0>, <1,0,0>, 0.5, 1
+		<-0.8,0,0>, <1,0,0>, 0.5, 1
 		texture{
 			pigment{colour DimGrey}
 		}
