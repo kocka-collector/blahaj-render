@@ -21,16 +21,15 @@ blob{
 		}
 	}
 }  
+
 sphere{
 	<1,0,0>, 2
-	strength 1.5
 	texture{
 		pigment{colour Blue transmit .75}
 	}
 }
 sphere{
 	0, 2
-	strength 2
 	texture{
 		pigment{colour Blue transmit .75}
 	}
