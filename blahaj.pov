@@ -26,6 +26,9 @@ blob{
 		}
 	}
 	cylinder{
+		<1,0.5,-0.5>,<1,0.5,0.5>,0.1,1
+	}
+	cylinder{
 		<1,0,0>, <2,0,0>, 0.5,1.2
 		texture{
 			pigment{colour Blue}
