@@ -9,7 +9,7 @@ blob{
 	cylinder{
 		<-0.8,1,0>, <1,0,0>, 0.5, 1
 		texture{
-			pigment{colour Blue}
+			pigment{colour DarkSlateBlue}
 		}
 	}
 	cylinder{
