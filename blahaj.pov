@@ -8,7 +8,7 @@ camera{
 blob{
 //top jaw/top of head, all the way to tail.
 	cylinder{
-		<-1.5,1,0>, <1,0,0>, 0.5, 1.1
+		<-1,1,0>, <1,0,0>, 0.5, 1.1
 		texture{
 			pigment{colour DarkSlateBlue}
 		}
