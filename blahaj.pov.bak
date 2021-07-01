@@ -25,8 +25,7 @@ blob{
 		<-0.8,0.2,-1>,
 		<-0.8,0.2,1>, 0.3,-1
 		scale<1,0.5,1>
-	} 
-
+	}
 //belly
 	sphere{
 		<1,-0.5,0>, 1
@@ -70,23 +69,7 @@ blob{
 			pigment{colour Blue}
 		}
 	}
-}
-//eye 1
-sphere{
-   <-.4, .25, -.4>, .035
-   texture{
-        pigment{colour Black}
-   }       
-}
-//eye 2
-sphere{
-   <-.4, .25, .4>, .035
-   texture{
-        pigment{colour Black}
-   }       
-}
-
-  
+}  
 /*
 sphere{
 	<1,0,0>, 2
