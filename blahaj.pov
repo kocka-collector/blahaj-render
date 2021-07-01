@@ -6,18 +6,21 @@ camera{
 }
 
 blob{
+//top jaw/top of head, all the way to tail.
 	cylinder{
 		<-1.5,1,0>, <1,0,0>, 0.5, 1
 		texture{
 			pigment{colour DarkSlateBlue}
 		}
 	}
+//bottom jaw to tail
 	cylinder{
 		<-0.8,0,0>, <1,0,0>, 0.5, 1
 		texture{
 			pigment{colour DimGrey}
 		}
 	}
+//belly
 	sphere{
 		<1,-0.5,0>, 1
 		strength 1
@@ -25,18 +28,21 @@ blob{
 			pigment{colour Blue}
 		}
 	}
+//fins
 	cylinder{
 		<1,-0.5,-0.5>,<1,-0.5,0.5>,0.1,1.1
 		texture{
 			pigment{colour Blue}
 		}
 	}
+//tail
 	cylinder{
 		<1,0,0>, <2,0,0>, 0.5,1.2
 		texture{
 			pigment{colour Blue}
 		}
 	}
+//hump on back. possibly unneded.
 	sphere{
 		0, 1
 		strength 1.7
