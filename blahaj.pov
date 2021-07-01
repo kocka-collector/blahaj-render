@@ -22,7 +22,7 @@ blob{
 		<1,-0.5,0>, 1
 		strength 1.4
 		texture{
-			pigment{colour Blue}
+			pigment{colour Grey}
 		}
 	}
 	cylinder{
@@ -35,7 +35,7 @@ blob{
 		0, 1
 		strength 1.7
 		texture{
-			pigment{colour Grey}
+			pigment{colour Blue}
 		}
 	}
 }  
