@@ -20,7 +20,7 @@ blob{
 	}
 	sphere{
 		<1,-0.5,0>, 1
-		strength 1.4
+		strength 1
 		texture{
 			pigment{colour Grey}
 		}
