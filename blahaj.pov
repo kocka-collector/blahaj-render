@@ -17,7 +17,7 @@ blob{
 		0, 2
 		strength 2
 		texture{
-			pigment{colour Blue}
+			pigment{colour Grey}
 		}
 	}
 }  
@@ -31,7 +31,7 @@ sphere{
 sphere{
 	0, 2
 	texture{
-		pigment{colour Blue transmit .5}
+		pigment{colour Grey transmit .5}
 	}
 }
 light_source { <2, 4, -3> color White}
