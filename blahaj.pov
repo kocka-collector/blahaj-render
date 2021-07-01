@@ -25,8 +25,8 @@ blob{
 		<-0.8,0.4,-1>,
 		<-0.8,0.4,1>, 0.3,-2
 		scale<1,0.25,1>
-		rotate<0,0,-15>
-		translate<0,-0.3,0>
+		rotate<0,0,-30>
+		translate<0,-0.6,0>
 	}
 //belly
 	sphere{
