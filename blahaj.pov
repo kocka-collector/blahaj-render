@@ -8,7 +8,7 @@ camera{
 blob{
 //top jaw/top of head, all the way to tail.
 	cylinder{
-		<-3,1,0>, <1,0,0>, 0.5, 1
+		<-1,0.4,0>, <1,0,0>, 0.5, 1.1
 		texture{
 			pigment{colour DarkSlateBlue}
 		}
@@ -22,12 +22,20 @@ blob{
 	}
 //mouth
 	cylinder{
-		<-0.8,0.2,-1>,
-		<-0.8,0.2,1>, 0.3,-1
-		scale<1,0.5,1>
-	} 
-
+		<-0.8,0.4,-1>,
+		<-0.8,0.4,1>, 0.3,-2
+		scale<1,0.25,1>
+		rotate<0,0,15>
+		translate<0.2,0,0>
+	}
 //belly
+	sphere{
+		<1.1,0.5,0>, 0.5
+		strength -1.5
+		texture{
+			pigment{colour Blue}
+		}
+	}
 	sphere{
 		<1,-0.5,0>, 1
 		strength 1
