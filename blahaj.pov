@@ -59,13 +59,13 @@ blob{
 		}
 	}
 	cylinder{
-		<3,-1,0>,<2.5,0.5,0>,0.5,1
+		<3,-1,0>,<2,0,0>,0.5,1
 		texture{
 			pigment{colour RichBlue}
 		}
 	}
 	cylinder{
-		<3,1,0>,<2.5,-0.5,0>,0.5,1
+		<3,1,0>,<2,0,0>,0.5,1
 		texture{
 			pigment{colour RichBlue}
 		}
